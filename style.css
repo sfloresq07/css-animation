@@ -38,15 +38,13 @@ figure{
     width: 60%;
 }
 .buttons__item:hover{
-    /* background-color: rgb(224, 33, 97); */
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 figure img{
     position: absolute;
     top: 0;
     bottom: 0;
-    /* left: -5%; */
     margin: auto;
     width: 130%;
     max-width: 400px;
@@ -62,4 +60,3 @@ figure img[id]:target{
     opacity: 1;
     transform: scale(1) rotate(0);
 }
-
