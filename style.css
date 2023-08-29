@@ -23,26 +23,26 @@ figure{
 .buttons{
     display: grid;
     grid-auto-flow: column;
-    gap: 2rem;
+    justify-content: center;
     
 }
 
 .buttons__item{
-    display: inline-block;
-    background-color: #cd6e8a;
-    color: #fff;
-    padding: 2.5rem 4rem ;
+    margin-left: 55px;
     transition-property: background-color, transform;
     transition-duration: .8s;
 
 }
-
+.buttons__item img{
+    height: 120%;
+    width: 60%;
+}
 .buttons__item:hover{
-    background-color: rgb(224, 33, 97);
-    transform: scale(1.2);
+    /* background-color: rgb(224, 33, 97); */
+    transform: scale(1.5);
 }
 
-img{
+figure img{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -58,7 +58,7 @@ img{
 
 }
 
-img[id]:target{
+figure img[id]:target{
     opacity: 1;
     transform: scale(1) rotate(0);
 }
